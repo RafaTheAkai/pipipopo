@@ -1,4 +1,3 @@
-
 const { ObjectId } = require("mongodb");
 module.exports = (app) => {
     app.delete("/delnoticias", async (req, res) => {
